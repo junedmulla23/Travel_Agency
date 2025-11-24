@@ -35,7 +35,7 @@ pipeline {
    
     post {
         success {
-            echo 'Pipeline finished successfully! Visit: http://localhost/TravelAgency/index.html'
+            echo 'Pipeline finished successfully! Visit: http://localhost/TravelAgency/'
         }
         failure {
             echo 'Pipeline failed! Check build logs.'
